@@ -42,8 +42,7 @@ Creative Canvas is an innovative digital drawing platform that empowers users—
 
 - **98%** hand tracking accuracy tested across varied lighting and user backgrounds
 - Successfully tested by users aged **6–25**, ensuring inclusivity
-- Published as part of the **Mini Project Report V Semester** at **RAIT, Navi Mumbai**
-- Received praise for intuitive design and ease of use
+
 
   <img width="772" alt="Screenshot 2025-06-27 at 2 06 45 PM" src="https://github.com/user-attachments/assets/52025c96-1be2-4de9-ac1d-65e27e25279e" />
   <img width="772" alt="Screenshot 2025-06-27 at 2 06 22 PM" src="https://github.com/user-attachments/assets/1d598280-7c9f-4597-8a0b-91acba1f9dbc" />
