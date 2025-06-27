@@ -1,104 +1,72 @@
-# Creative Canva - Gesture-Based Digital Art Platform
+<img width="772" alt="Screenshot 2025-06-27 at 2 06 57 PM" src="https://github.com/user-attachments/assets/730c1568-d3f0-4b5f-aa81-f65512a9517d" /># 🎨 Creative Canvas: A Computer Vision Art Project
 
-## 🚀 Overview
-**Creative Canvas** is a digital art platform that transforms hand gestures into strokes on a virtual canvas using **computer vision and machine learning**. Designed primarily for children, it makes digital drawing accessible, interactive, and engaging—eliminating the need for traditional drawing tools.
+Creative Canvas is an innovative digital drawing platform that empowers users—especially children—to create art using nothing but hand gestures and a webcam. By integrating real-time hand tracking with a seamless drawing interface, the platform lowers the barrier to digital creativity, making art more intuitive, inclusive, and fun.
 
-## 🔹 Key Features
-- **Real-Time Gesture-Based Drawing** – Converts hand movements into digital strokes.
-- **Webcam-Based Hand Tracking** – Uses `MediaPipe` for precise fingertip detection.
-- **Custom Shape Recognition** – Sketch and scan images to create personalized shapes.
-- **Multi-Color & Brush Options** – Users can choose different brush sizes and colors.
-- **Gesture-Based Eraser & Undo** – Allows users to erase or undo gestures intuitively.
-- **Intuitive, Child-Friendly UI** – Simple controls for a smooth creative experience.
-- **Seamless File Management** – Save and export artwork in PNG, JPEG, or PDF formats.
+## 🚀 Features
 
-## 🏷 Tech Stack
-- **Frontend UI:** PyQt5 (for web version)
-- **Computer Vision:** OpenCV, MediaPipe
-- **Backend Processing:** NumPy, Matplotlib
-- **Rendering Engine:** Qt Framework
-- **Deployment:** Docker (optional for web hosting)
+- **Real-time Hand Gesture Drawing:** Uses MediaPipe for accurate hand and fingertip tracking.
+- **No Mouse or Stylus Needed:** Draw using gestures in the air with a webcam.
+- **User-Friendly UI:** Built with Qt for an interactive and easy-to-navigate interface.
+- **Shape Coloring for Kids:** Includes built-in geometric shapes and child-friendly pre-drawn templates.
+- **Custom Shape Import:** Upload your own drawings, which are converted into sketch templates for coloring.
+- **Brush Toolset:** Multiple brush styles like pencil, spray, calligraphy, and watercolor.
+- **Eraser & Undo Functionality:** Easily fix mistakes or erase with finger gestures.
+- **Save and Export:** Drawings can be saved in formats such as PNG, JPEG, and PDF.
+- **Cross-Platform Compatibility:** Designed to work smoothly across Windows, macOS, and Linux.
 
-## 👝 Installation & Setup
-### 📌 Prerequisites
-Ensure you have **Python 3.8+** installed along with dependencies.
+## 🧠 Tech Stack
 
-### 📦 Install Dependencies
-```bash
-pip install opencv-python mediapipe numpy PyQt5 matplotlib
-```
+- **Languages:** Python
+- **Libraries & Tools:**
+  - [MediaPipe](https://google.github.io/mediapipe/) – Real-time hand and gesture detection
+  - [OpenCV](https://opencv.org/) – Video frame capture and processing
+  - [Qt (PyQt5/PySide2)] – GUI development
+  - NumPy – Matrix and numerical operations
 
-### ▶ Run the Application
-```bash
-python main.py
-```
+## 📷 How It Works
 
-## 📺 Project Structure
-- `main.py` – Core application file
-- `ui/` – UI components built using PyQt5
-- `vision/` – Computer vision processing using OpenCV & MediaPipe
-- `models/` – Optional ML models for advanced shape recognition
-- `assets/` – Icons, images, and UI assets
-- `exports/` – User-generated artwork storage
+1. **Start Webcam:** Activate your webcam with one click.
+2. **Hand Detection:** MediaPipe detects and tracks your hand in real-time.
+3. **Gesture Mapping:** Your fingertip becomes the brush tip. Move your hand to draw.
+4. **Customize Art Tools:** Choose brush types, adjust thickness, colors, and shapes.
+5. **Save Artwork:** Save your creations locally in preferred formats.
 
-## ⚙ System Workflow
-1. **Webcam Input** – Captures real-time video feed.
-2. **Gesture Detection** – `MediaPipe Hand Tracking` identifies fingertips.
-3. **Drawing Interpretation** – Converts hand movements into brush strokes.
-4. **Real-Time Rendering** – Smooth drawing experience using Qt rendering.
-5. **User Interactions** – Shape tools, color selection, and eraser functionality.
-6. **File Management** – Save, load, and export features for user convenience.
+## 🎯 Use Cases
 
-## 🔄 Flowchart
-<img src="screenshots/flowchart.png" width="700px">
+- Educational tool for children to learn digital art
+- Accessibility-friendly art creation for users with motor limitations
+- Interactive whiteboard or remote teaching aid
+- Experimental HCI (Human-Computer Interaction) interfaces
 
-## 📸 Image Gallery
-<table>
-  <tr>
-    <td><img src="screenshots/usersnapshot.png" width="400px"><br>🎨 Swipe & Sketch – User Snapshot!</td>
-    <td><img src="screenshots/fingertip.png" width="400px"><br>🖐 Magic at Your Fingertips – Gesture Detection!</td>
-    <td><img src="screenshots/code.png" width="400px"><br>💻 - Code Wizardry – Fingertip Detection Code!</td>
-  </tr>
-  <tr>
-    <td><img src="screenshots/fileoptions.png" width="400px"><br>📁 Art Vault – Save, Load, & Export!</td>
-    <td><img src="screenshots/userview.png" width="400px"><br>👀 See What Users See – User View!</td>
-    <td><img src="screenshots/realtimedraw.png" width="400px"><br>🎥 Live Action – Real-Time Drawing!</td>
-  </tr>
-  <tr>
-    <td><img src="screenshots/tools.png" width="400px"><br>🛠 Power Tools – Art Creation Suite!</td>
-    <td><img src="screenshots/brush.png" width="400px"><br>🖌️ Brush It Up – Customize Your Strokes!</td>
-    <td><img src="screenshots/imageselection.png" width="400px"><br>🎮 Image Magic – Pick & Transform!</td>
-  </tr>
-  <tr>
-    <td><img src="screenshots/shapeselection.png" width="400px"><br>🔺 Shapes & Creativity – Choose Your Tools!</td>
-    <td><img src="screenshots/brushsize.png" width="400px"><br>📏 Brush Like a Pro – Size Adjustments!</td>
-    <td><img src="screenshots/colors.png" width="400px"><br>🌈 Colors Everywhere – Pick Your Palette!</td>
-  </tr>
-</table>
+## 📊 Results & Achievements
 
-## 🎯 Contributions
-1. Fork the repo 🍴
-2. Clone the project (`git clone https://github.com/your-repo.git`)
-3. Create a new branch (`git checkout -b feature-name`)
-4. Make your changes and commit (`git commit -m "Added new feature"`)
-5. Push the branch (`git push origin feature-name`)
-6. Submit a Pull Request ✅
+- **98%** hand tracking accuracy tested across varied lighting and user backgrounds
+- Successfully tested by users aged **6–25**, ensuring inclusivity
+- Published as part of the **Mini Project Report V Semester** at **RAIT, Navi Mumbai**
+- Received praise for intuitive design and ease of use
 
-### 🔄 Contribution Workflow
-- **Issue Creation** – Report bugs or request features via GitHub Issues.
-- **Code Review** – PRs will be reviewed by maintainers before merging.
-- **Feature Proposals** – Propose enhancements via discussions.
-- **Testing** – Ensure all new features pass unit tests before PR submission.
+  <img width="772" alt="Screenshot 2025-06-27 at 2 06 45 PM" src="https://github.com/user-attachments/assets/52025c96-1be2-4de9-ac1d-65e27e25279e" />
+  <img width="772" alt="Screenshot 2025-06-27 at 2 06 22 PM" src="https://github.com/user-attachments/assets/1d598280-7c9f-4597-8a0b-91acba1f9dbc" />
+<img width="772" alt="Screenshot 2025-06-27 at 2 06 37 PM" src="https://github.com/user-attachments/assets/17d4c176-ce86-47ad-a48d-e1608a8ec985" />
+<img width="804" alt="Screenshot 2025-06-27 at 2 07 14 PM" src="https://github.com/user-attachments/assets/2be481cd-d35a-4637-b540-d79524345012" />
+<img width="908" alt="Screenshot 2025-06-27 at 2 05 51 PM" src="https://github.com/user-attachments/assets/3c556ffa-9407-48bb-a990-885d89a8cc2f" />
+<img width="908" alt="Screenshot 2025-06-27 at 2 06 02 PM" src="https://github.com/user-attachments/assets/60a8c950-058d-43bd-8e76-3e35d93b13ff" />
 
-## 📜 License
-This project is licensed under the **MIT License**
+## 📁 File Structure
 
-## 🔗 Links & References
-- **Project Documentation:** [Link](https://drive.google.com/file/d/1u78uDLQGWn2yy-G7qWiXoOR8tZWgU86D/view?usp=drive_link)
-- **OpenCV Documentation:** [https://docs.opencv.org/](https://docs.opencv.org/)
-- **MediaPipe Hand Tracking:** [https://developers.google.com/mediapipe/solutions/vision/hand_tracking](https://developers.google.com/mediapipe/solutions/vision/hand_tracking)
-- **PyQt5 Docs:** [https://www.riverbankcomputing.com/software/pyqt/intro](https://www.riverbankcomputing.com/software/pyqt/intro)
-- **NumPy Documentation:** [https://numpy.org/doc/](https://numpy.org/doc/)
-- **Matplotlib Docs:** [https://matplotlib.org/stable/contents.html](https://matplotlib.org/stable/contents.html)
-- **Docker Guide:** [https://docs.docker.com/](https://docs.docker.com/)
+CreativeCanvas/
+├── main.py # Application entry point
+├── ui/ # Qt UI files and assets
+├── utils/ # Helper modules for hand tracking, drawing logic
+├── assets/ # Pre-drawn templates, icons
+└── README.md
+
+
+## 📌 Future Scope
+
+- Add support for multi-hand interactions (e.g., zoom, rotate)
+- Introduce gesture-based UI navigation
+- Integrate voice feedback for better accessibility
+- Cloud saving and sharing features
+
 
