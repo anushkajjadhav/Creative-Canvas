@@ -1,4 +1,4 @@
-<img width="772" alt="Screenshot 2025-06-27 at 2 06 57 PM" src="https://github.com/user-attachments/assets/730c1568-d3f0-4b5f-aa81-f65512a9517d" /># 🎨 Creative Canvas: A Computer Vision Art Project
+# 🎨 Creative Canvas: A Computer Vision Art Project
 
 Creative Canvas is an innovative digital drawing platform that empowers users—especially children—to create art using nothing but hand gestures and a webcam. By integrating real-time hand tracking with a seamless drawing interface, the platform lowers the barrier to digital creativity, making art more intuitive, inclusive, and fun.
 
@@ -51,6 +51,7 @@ Creative Canvas is an innovative digital drawing platform that empowers users—
 <img width="804" alt="Screenshot 2025-06-27 at 2 07 14 PM" src="https://github.com/user-attachments/assets/2be481cd-d35a-4637-b540-d79524345012" />
 <img width="908" alt="Screenshot 2025-06-27 at 2 05 51 PM" src="https://github.com/user-attachments/assets/3c556ffa-9407-48bb-a990-885d89a8cc2f" />
 <img width="908" alt="Screenshot 2025-06-27 at 2 06 02 PM" src="https://github.com/user-attachments/assets/60a8c950-058d-43bd-8e76-3e35d93b13ff" />
+<img width="772" alt="Screenshot 2025-06-27 at 2 06 57 PM" src="https://github.com/user-attachments/assets/730c1568-d3f0-4b5f-aa81-f65512a9517d" />
 
 ## 📁 File Structure
 
@@ -60,6 +61,7 @@ CreativeCanvas/
 ├── utils/ # Helper modules for hand tracking, drawing logic
 ├── assets/ # Pre-drawn templates, icons
 └── README.md
+
 
 
 ## 📌 Future Scope
